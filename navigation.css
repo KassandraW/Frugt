@@ -1,7 +1,7 @@
 /* nav */
 
-body{
-    overflow: hidden;
+body {
+  overflow: hidden;
 }
 
 .nav_grid {
@@ -21,7 +21,7 @@ body{
 }
 
 .title {
-  margin-top: 10%;
+  margin-top: 2em;
   padding: 2%;
 }
 
@@ -92,8 +92,8 @@ body{
   }
   .title {
     grid-column: 1/2;
-    margin-top: 2em;
-    padding: 0 0 0 2%;
+    margin-top: 3em;
+    margin-left: 3em;
     width: 500px;
   }
 
