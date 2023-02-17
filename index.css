@@ -2,18 +2,7 @@ body {
   background-color: #d3fffa;
 }
 
-/* fjerne standard decoration og margins */
-* {
-  text-decoration: none;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-/* responsive billeder */
-img {
-  max-width: 100%;
-}
 
 /* nav-knap */
 :root {
