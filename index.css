@@ -2,8 +2,6 @@ body {
   background-color: #d3fffa;
 }
 
-
-
 /* nav-knap */
 :root {
   --bg: #c2f5ef;
@@ -64,4 +62,13 @@ body {
   top: -50px;
   left: 0;
   transition: ease-in 0.3s;
+}
+
+/* frugtskål / baggrundsbilled */
+.frugtskaal {
+  width: 45%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
 }
