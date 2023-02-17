@@ -1,64 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mutual.css">
-    <link rel="stylesheet" href="forms.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mutual.css" />
+    <link rel="stylesheet" href="forms.css" />
+    <link rel="stylesheet" href="navigation.css" />
     <title>Forms</title>
-</head>
-<body>
-	
-    <form>
+  </head>
+  <body>
+    <header>
+      <img class="nav_img" src="images/test.svg" alt="" />
+      <div class="nav_grid">
+        <div class="title"><img src="images/title.svg" alt="" /></div>
+        <div class="buttons">
+          <a href="kategori.html" class="btn_container btn_margin">
+            <div class="btn">
+              <div class="btn_txt">Kategorier</div>
+            </div>
+            <div class="btn_outline"></div>
+          </a>
+          <a href="frugter.html" class="btn_container btn_margin">
+            <div class="btn">
+              <div class="btn_txt">Alle frugter</div>
+            </div>
+            <div class="btn_outline"></div>
+          </a>
+          <a href="forms.html" class="btn_container">
+            <div class="btn">
+              <div class="btn_txt">Tilføj</div>
+            </div>
+            <div class="btn_outline"></div>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <form>
         <h3>Tilføj en frugt</h3>
-    <div class="form-felt">
-        <label>
-          Frugtens navn 
-          <input type="text" name="navn" required>
-        </label>
-      </div>
-      <div class="form-felt">
-        <label>
-          Latinskenavn
-          <input type="text" name="navn" required>
-        </label>
-      </div>
-      <div class="form-felt">
-        <label>
-        Oprindelsesland
-          <input type="text" name="navn" required>
-        </label>
-      </div>
-      <div class="form-felt">
-        <label>
-          Årstid frugten er i sæson
-          <select name="liste">
-            <option value="">Vinter</option>
-            <option value="studerende">Forår</option>
-            <option value="underviser">Sommer</option>
-            <option value="underviser">Efterår</option>
-          </select>
-        </label>
-      </div>
-      <div class="form-felt">
-        <label>
-          Udplantning
-          <select name="liste">
-            <option value="">træ</option>
-            <option value="studerende">busk</option>
-            <option value="underviser">jorden</option>
-          </select>
-        </label>
-      </div>
+        <div class="form-felt">
+          <label>
+            Frugtens navn
+            <input type="text" name="navn" required />
+          </label>
+        </div>
+        <div class="form-felt">
+          <label>
+            Latinskenavn
+            <input type="text" name="navn" required />
+          </label>
+        </div>
+        <div class="form-felt">
+          <label>
+            Oprindelsesland
+            <input type="text" name="navn" required />
+          </label>
+        </div>
+        <div class="form-felt">
+          <label>
+            Årstid frugten er i sæson
+            <select name="liste">
+              <option value="">Vinter</option>
+              <option value="studerende">Forår</option>
+              <option value="underviser">Sommer</option>
+              <option value="underviser">Efterår</option>
+            </select>
+          </label>
+        </div>
+        <div class="form-felt">
+          <label>
+            Udplantning
+            <select name="liste">
+              <option value="">træ</option>
+              <option value="studerende">busk</option>
+              <option value="underviser">jorden</option>
+            </select>
+          </label>
+        </div>
 
-      <div class="form-felt">
-        <label>
-          Beskrivelse
-          <textarea name="besked" rows="5"></textarea>
-        </label>
-      </div>
-    </form>
+        <div class="form-felt">
+          <label>
+            Beskrivelse
+            <textarea name="besked" rows="5"></textarea>
+          </label>
+        </div>
+      </form>
+    </main>
 
-</body>
+    <footer></footer>
+  </body>
 </html>
