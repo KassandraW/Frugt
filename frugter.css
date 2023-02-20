@@ -8,6 +8,22 @@ body {
   text-decoration: none;
 }
 
+.kategori_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.kategori {
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dpink);
+  font-size: 30px;
+}
+
 .center {
   height: 100%;
   width: 100%;
@@ -20,7 +36,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1em;
-  margin-top: 5em;
 }
 
 .center2 {
@@ -56,5 +71,3 @@ body {
   color: var(--dpink);
   font-size: 20px;
 }
-
-
