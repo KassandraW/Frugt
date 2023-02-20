@@ -1,53 +1,58 @@
-body{
-    background-color: #f8f1cd;
+body {
+  background-color: #f8f1cd;
 }
 
-
 :root {
-    --pink: #fbc8c7;
-    --dpink: rgb(228, 155, 154);
-    text-decoration: none;
-  }
-  
+  --pink: #fbc8c7;
+  --dpink: rgb(228, 155, 154);
+  text-decoration: none;
+}
 
-  .grid {
-    width: 70%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-  }
-  
-  .center2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .card_container {
-    width: 300px;
-    height: 600px;
-  }
-  
-  .card_border {
-    width: 300px;
-    height: 600px;
-    border: 2px solid var(--pink);
-    position: relative;
-    top: -309px;
-    left: -8px;
-  }
-  
-  .card_bg {
-    background-color: white;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .navn {
-    position: relative;
-    top: -290px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--dpink);
-    font-size: 20px;
-  }
-  
+.grid {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: 7em;
+}
+
+.center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_container {
+  width: 300px;
+  height: 600px;
+}
+
+.card_border {
+  width: 300px;
+  height: 600px;
+  border: 2px solid var(--pink);
+  position: relative;
+  top: -608px;
+  left: -8px;
+}
+
+.card_bg {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.navn {
+  position: relative;
+  top: -290px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dpink);
+  font-size: 20px;
+}
