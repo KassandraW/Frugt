@@ -9,7 +9,7 @@ body {
 }
 
 .grid {
-  width: 70%;
+  width: 40%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
@@ -49,9 +49,9 @@ body {
   height: 100%;
 }
 
-.navn {
+.kategori {
   position: relative;
-  top: -290px;
+  top: -590px;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--dpink);
   font-size: 20px;
