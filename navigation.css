@@ -1,9 +1,5 @@
 /* nav */
 
-body {
-  overflow: hidden;
-}
-
 .nav_grid {
   display: grid;
   grid-template-columns: 1fr;
