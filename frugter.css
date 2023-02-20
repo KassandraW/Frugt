@@ -10,18 +10,20 @@ body {
 
 .kategori_container {
   height: 100%;
-  width: 100%;
+  width: 85%;
   display: flex;
   justify-content: center;
-  margin-top: 5em;
+  align-items: center;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 
 .kategori {
-  width: 70%;
+  width: 60%;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--dpink);
   font-size: 30px;
+  justify-self: center;
 }
 
 .center {
@@ -32,9 +34,9 @@ body {
 }
 
 .grid {
-  width: 70%;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 5em 2em;
 }
 
@@ -70,4 +72,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--dpink);
   font-size: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+  }
+
+  .kategori_container {
+    width: 120%;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+  }
+  .kategori_container {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 75%;
+  }
+
+  .kategori_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    width: 85%;
+  }
 }
