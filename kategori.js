@@ -3,10 +3,10 @@ fetch("https://tema7-f389.restdb.io/rest/frugter")
   .then(showCategories);
 
 function showCategories(cats) {
-  cats.forEach(showCategory);
+  cats.forEach(changeLink);
 }
 
-function showCategory(cat) {
+function changeLink(cat) {
   //ændre indhold
   document.querySelector(
     ".plante"
