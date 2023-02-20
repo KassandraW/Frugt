@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #edffbf;
+      }
+
+      .cls-2 {
+        fill: #9fe07f;
+      }
+
+      .cls-3 {
+        fill: #c8ff8a;
+      }
+
+      .cls-4 {
+        fill: #4d4d4d;
+      }
+
+      .cls-5 {
+        fill: none;
+        opacity: .56;
+        stroke: #8c6239;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-5" cx="115" cy="115.5" rx="110" ry="109.5"/>
+  <ellipse class="cls-3" cx="115.54" cy="116.03" rx="107.01" ry="106.73" transform="translate(-32 187.04) rotate(-70.82)"/>
+  <ellipse class="cls-2" cx="146.35" cy="147.64" rx="3.77" ry="25.46" transform="translate(-61.25 136.78) rotate(-42.26)"/>
+  <ellipse class="cls-2" cx="156.19" cy="93.53" rx="25.5" ry="3.76" transform="translate(-24.75 73.41) rotate(-24.57)"/>
+  <ellipse class="cls-2" cx="79.84" cy="135.1" rx="25.49" ry="3.77" transform="translate(-60.01 63.9) rotate(-32.44)"/>
+  <ellipse class="cls-2" cx="83.69" cy="76.54" rx="3.77" ry="25.46" transform="translate(-29.72 76.17) rotate(-42.26)"/>
+  <ellipse class="cls-2" cx="131.46" cy="70.58" rx="25.43" ry="3.78" transform="translate(11.53 159.35) rotate(-64.74)"/>
+  <ellipse class="cls-2" cx="98.64" cy="154.07" rx="25.43" ry="3.78" transform="translate(-82.79 177.53) rotate(-64.74)"/>
+  <ellipse class="cls-2" cx="160.63" cy="127.45" rx="3.76" ry="25.52" transform="translate(-1.14 253.45) rotate(-76.34)"/>
+  <ellipse class="cls-2" cx="71.9" cy="104.46" rx="3.76" ry="25.52" transform="translate(-46.58 149.67) rotate(-76.34)"/>
+  <ellipse class="cls-2" cx="101.07" cy="66.95" rx="3.78" ry="25.41" transform="translate(-10.01 18.38) rotate(-9.91)"/>
+  <ellipse class="cls-2" cx="126.6" cy="160.12" rx="3.78" ry="25.41" transform="translate(-25.66 24.16) rotate(-9.91)"/>
+  <ellipse class="cls-2" cx="146.05" cy="79.05" rx="25.46" ry="3.77" transform="translate(-11.81 130.62) rotate(-46.52)"/>
+  <ellipse class="cls-2" cx="87.7" cy="144.39" rx="25.46" ry="3.77" transform="translate(-77.41 108.66) rotate(-46.52)"/>
+  <ellipse class="cls-2" cx="71.9" cy="122.61" rx="25.52" ry="3.76" transform="translate(-28.79 22.29) rotate(-14.72)"/>
+  <ellipse class="cls-2" cx="73.12" cy="91.15" rx="3.76" ry="25.51" transform="translate(-38.48 125.78) rotate(-68.51)"/>
+  <ellipse class="cls-2" cx="115.63" cy="65.57" rx="25.24" ry="3.78" transform="translate(41.42 175.86) rotate(-85.62)"/>
+  <ellipse class="cls-2" cx="159.42" cy="111.72" rx="25.35" ry="3.76" transform="translate(-8.7 13.58) rotate(-4.75)"/>
+  <ellipse class="cls-2" cx="156.98" cy="140.76" rx="3.77" ry="25.32" transform="translate(-45.72 198.78) rotate(-57.85)"/>
+  <ellipse class="cls-2" cx="113.23" cy="158.91" rx="25.24" ry="3.78" transform="translate(-50.68 264.75) rotate(-87.38)"/>
+  <ellipse class="cls-2" cx="138.81" cy="157.58" rx="3.78" ry="25.26" transform="translate(-50.1 65.87) rotate(-22.73)"/>
+  <path class="cls-1" d="M136.34,100.17c-.18,18.3,9.06,30.11-5.08,38.24-14.14,8.12-31.64-10.11-35.11-15.86-10.03-16.62-4.03-23.36,6.23-35.93,9.52-11.66,34.04,5.46,33.96,13.56Z"/>
+  <ellipse class="cls-4" cx="87.65" cy="115.5" rx="3.04" ry="3.63"/>
+  <ellipse class="cls-4" cx="80.36" cy="116.71" rx="3.04" ry="3.63"/>
+  <ellipse class="cls-4" cx="84.7" cy="89.98" rx="3.03" ry="3.64" transform="translate(-37.69 72.89) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="89.56" cy="94.82" rx="3.03" ry="3.64" transform="translate(-39.65 77.01) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="94.42" cy="86.35" rx="3.03" ry="3.64" transform="translate(-33.27 78.18) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="83.48" cy="75.46" rx="3.03" ry="3.64" transform="translate(-28.86 68.93) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="95.64" cy="131.12" rx="3.03" ry="3.64" transform="translate(-61.04 88.82) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="72.54" cy="132.33" rx="3.03" ry="3.64" transform="translate(-66.89 74.62) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="70.11" cy="112.97" rx="3.03" ry="3.64" transform="translate(-55.3 68.83) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="90.78" cy="150.48" rx="3.03" ry="3.64" transform="translate(-74.24 90.04) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="110.22" cy="140.8" rx="3.03" ry="3.64" transform="translate(-63.89 100.09) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="107.79" cy="149.27" rx="3.03" ry="3.64" transform="translate(-69.73 100.43) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="141.83" cy="132.33" rx="3.03" ry="3.64" transform="translate(-51.62 118.01) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="149.12" cy="138.38" rx="3.03" ry="3.64" transform="translate(-53.8 123.91) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="141.83" cy="144.43" rx="3.03" ry="3.64" transform="translate(-59.2 120.68) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="84.7" cy="134.75" rx="3.03" ry="3.64" transform="translate(-65.73 82.76) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="83.48" cy="104.5" rx="3.03" ry="3.64" transform="translate(-47.05 75.33) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="73.76" cy="96.03" rx="3.03" ry="3.64" transform="translate(-43.89 67.37) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="127.24" cy="144.43" rx="3.03" ry="3.64" transform="translate(-62.41 111.54) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="118.73" cy="160.16" rx="3.03" ry="3.64" transform="translate(-74.14 109.68) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="105.36" cy="79.09" rx="3.03" ry="3.64" transform="translate(-26.31 83.43) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="96.85" cy="76.67" rx="3.03" ry="3.64" transform="translate(-26.67 77.57) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="111.44" cy="73.04" rx="3.03" ry="3.64" transform="translate(-21.18 85.91) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="129.67" cy="87.56" rx="3.03" ry="3.64" transform="translate(-26.26 100.53) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="134.53" cy="79.09" rx="3.03" ry="3.64" transform="translate(-19.88 101.71) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="122.38" cy="80.3" rx="3.03" ry="3.64" transform="translate(-23.32 94.36) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="102.93" cy="64.57" rx="3.03" ry="3.64" transform="translate(-17.75 78.71) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="122.38" cy="68.2" rx="3.03" ry="3.64" transform="translate(-15.74 91.69) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="138.18" cy="94.82" rx="3.03" ry="3.64" transform="translate(-28.93 107.46) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="146.69" cy="96.03" rx="3.03" ry="3.64" transform="translate(-27.81 113.06) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="150.33" cy="81.51" rx="3.03" ry="3.64" transform="translate(-17.91 112.14) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="161.27" cy="105.71" rx="3.03" ry="3.64" transform="translate(-30.66 124.33) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="140.61" cy="109.34" rx="3.03" ry="3.64" transform="translate(-37.49 112.18) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="152.76" cy="108.13" rx="3.03" ry="3.64" transform="translate(-34.05 119.53) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="143.04" cy="121.44" rx="3.03" ry="3.64" transform="translate(-44.53 116.37) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="149.12" cy="117.81" rx="3.03" ry="3.64" transform="translate(-40.92 119.38) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="157.63" cy="144.43" rx="3.03" ry="3.64" transform="translate(-55.71 130.58) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="156.41" cy="128.7" rx="3.03" ry="3.64" transform="translate(-46.13 126.35) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="132.3" cy="151.07" rx="3.03" ry="3.64" transform="translate(-65.46 116.18) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="142.02" cy="154.7" rx="3.03" ry="3.64" transform="translate(-65.59 123.07) rotate(-38.78)"/>
+  <ellipse class="cls-4" cx="118.92" cy="148.65" rx="3.03" ry="3.64" transform="translate(-66.89 107.27) rotate(-38.78)"/>
+</svg>
