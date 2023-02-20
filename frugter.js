@@ -17,6 +17,7 @@ function showFruits(frugter) {
 
   //ændre indhold
   copy.querySelector(".navn").textContent = frugter.navn;
+  copy.querySelector("img").src = "images/" + frugter.image;
 
   //indsæt template i DOM
   document.querySelector(".grid").appendChild(copy);
