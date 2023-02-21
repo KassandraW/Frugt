@@ -15,6 +15,9 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 2em;
+}
+
+.marg_bot {
   margin-bottom: 2em;
 }
 
@@ -24,6 +27,10 @@ body {
   color: var(--dpink);
   font-size: 30px;
   justify-self: center;
+}
+
+.breadcrumb {
+  width: 71%;
 }
 
 .center {
@@ -108,11 +115,18 @@ body {
     width: 75%;
   }
 
+  .marg {
+    margin-top: 5em;
+    margin-bottom: 0;
+  }
+
+  .marg_bot {
+    margin-top: 10px;
+  }
+
   .kategori_container {
     display: flex;
     justify-content: center;
-    margin-top: 5em;
-    margin-bottom: 2em;
     width: 85%;
   }
 }
