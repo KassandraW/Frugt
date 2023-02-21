@@ -11,6 +11,7 @@ fetch(`https://tema7-f389.restdb.io/rest/frugter?q={"udplantning":"${cat}"}`, {
 function visFrugter(frugter) {
   console.log(frugter);
   frugter.forEach(showFruits);
+  document.querySelector(".kategori").textContent = `${cat}`;
 }
 
 function showFruits(frugter) {
