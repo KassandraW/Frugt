@@ -1,10 +1,19 @@
 const urlParams = new URLSearchParams(window.location.search);
 const cat = urlParams.get("category");
 
-document.querySelector(".kategori").textContent = `${cat}`;
-document.querySelector(".breadcrumb span").textContent = `${cat}`;
+let myURL;
 
-fetch(`https://tema7-f389.restdb.io/rest/frugter?q={"udplantning":"${cat}"}`, {
+if (cat != null) {
+  myURL = `https://tema7-f389.restdb.io/rest/frugter?q={"udplantning":"${cat}"`;
+  document.querySelector(".kategori").textContent = `${cat}`;
+  document.querySelector(".breadcrumb span").textContent = `${cat}`;
+} else {
+  myURL = `https://tema7-f389.restdb.io/rest/frugter`;
+  document.querySelector(".kategori").textContent = `Alle frugter`;
+  document.querySelector(".breadcrumb span").textContent = `Alle frugter`;
+}
+
+fetch(myURL, {
   method: "get",
   headers: { "x-apikey": "63e9f446478852088da6810b" },
 })
@@ -14,6 +23,7 @@ fetch(`https://tema7-f389.restdb.io/rest/frugter?q={"udplantning":"${cat}"}`, {
 function visFrugter(frugter) {
   console.log(frugter);
   frugter.forEach(showFruits);
+
   document.querySelector(".kategori").textContent = `${cat}`;
 }
 
