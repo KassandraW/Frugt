@@ -13,7 +13,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1em;
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 .center {
