@@ -71,6 +71,16 @@ body {
 .btn_margin {
   margin-right: 3%;
 }
+@media only screen and (min-width: 375x) {
+  .btn_outline {
+    border: 2px;
+  }
+
+  .btn {
+    width: 120px;
+    height: 50px;
+  }
+}
 
 @media only screen and (min-width: 1360px) {
   .nav_grid {
@@ -101,7 +111,6 @@ body {
   .btn_outline {
     top: -43px;
     left: -5px;
-    border: 2px;
   }
 
   .btn_txt {

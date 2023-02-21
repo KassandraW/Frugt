@@ -1,6 +1,9 @@
 const urlParams = new URLSearchParams(window.location.search);
 const cat = urlParams.get("category");
 
+document.querySelector(".kategori").textContent = `${cat}`;
+document.querySelector(".breadcrumb span").textContent = `${cat}`;
+
 fetch(`https://tema7-f389.restdb.io/rest/frugter?q={"udplantning":"${cat}"}`, {
   method: "get",
   headers: { "x-apikey": "63e9f446478852088da6810b" },
