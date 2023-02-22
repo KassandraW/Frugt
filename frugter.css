@@ -31,6 +31,18 @@ body {
 
 .breadcrumb {
   width: 71%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dpink);
+  z-index: 99;
+}
+
+.breadcrumb > a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dpink);
+}
+
+.breadcrumb > a:hover {
+  color: var(--pink);
 }
 
 .center {
