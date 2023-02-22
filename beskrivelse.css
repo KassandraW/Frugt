@@ -123,6 +123,7 @@ main {
   margin-inline: 2rem;
   color: #f6c8bc;
   font-size: 3rem;
+  padding-bottom: 0.4rem;
 }
 .beskrivelse {
   margin-inline: 2rem;
@@ -133,6 +134,6 @@ main {
 .udplantning {
   margin-inline: 2rem;
   color: #e6ac9e;
-  font-size: 1.2rem;
-  padding-top: 1rem;
+  font-size: 1.5rem;
+  padding-top: 1.3rem;
 }
