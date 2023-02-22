@@ -22,8 +22,6 @@ fetch(myURL, {
 
 function visFrugter(frugter) {
   frugter.forEach(showFruits);
-
-  document.querySelector(".kategori").textContent = `${cat}`;
 }
 
 function showFruits(frugter) {
