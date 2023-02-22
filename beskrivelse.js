@@ -15,4 +15,19 @@ function visFrugt(frugt) {
 
   //ændre indhold
   document.querySelector(".name").textContent = frugt.navn;
+  document.querySelector(".frugter").textContent = frugt.udplantning;
+
+  //billede
+  document.querySelector(
+    ".frugtlink"
+  ).href = `frugter.html?category=${frugt.udplantning}`;
+  document.querySelector(".card_bg img").src = "images/" + frugt.image;
+
+  //tekst
+  document.querySelector(".latinsk").textContent = frugt.latinskenavn;
+  document.querySelector(".navn").textContent = frugt.navn;
+  document.querySelector(".beskrivelse").textContent = frugt.Beskrivelse;
+  document.querySelector(".land").textContent = frugt.oprindelsesland;
+  document.querySelector(".tid").textContent = frugt.årstid;
+  document.querySelector(".udplantning").textContent = frugt.udplantning;
 }

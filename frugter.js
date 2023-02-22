@@ -4,7 +4,7 @@ const cat = urlParams.get("category");
 let myURL;
 
 if (cat != null) {
-  myURL = `https://tema7-f389.restdb.io/rest/frugter?q={"udplantning":"${cat}"`;
+  myURL = `https://tema7-f389.restdb.io/rest/frugter?q={"udplantning":"${cat}"}`;
   document.querySelector(".kategori").textContent = `${cat}`;
   document.querySelector(".breadcrumb span").textContent = `${cat}`;
 } else {
@@ -21,7 +21,6 @@ fetch(myURL, {
   .then(visFrugter);
 
 function visFrugter(frugter) {
-  console.log(frugter);
   frugter.forEach(showFruits);
 
   document.querySelector(".kategori").textContent = `${cat}`;
