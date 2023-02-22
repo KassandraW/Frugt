@@ -110,3 +110,29 @@ main {
     margin: 40px;
   }
 }
+
+.latinsk {
+  margin-inline: 2rem;
+  color: #f6c8bc;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+}
+.navn {
+  margin-inline: 2rem;
+  color: #f6c8bc;
+  font-size: 3rem;
+}
+.beskrivelse {
+  margin-inline: 2rem;
+  color: #e6ac9e;
+}
+.land,
+.tid,
+.udplantning {
+  margin-inline: 2rem;
+  color: #e6ac9e;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
