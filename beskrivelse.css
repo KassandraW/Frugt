@@ -25,20 +25,13 @@ main {
 }
 
 @media (min-width: 700px) {
-  .grid {
+  .center {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
-    margin-top: 7em;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
     margin-right: 40px;
+    margin-top: 5%;
   }
-}
-
-.center {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .center2 {
